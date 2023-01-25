@@ -1,0 +1,26 @@
+package sundayfunday;
+
+public class Reverse_Element {
+
+	public static void main(String args[])
+	{
+		int arr[]= {12,23,45,76,85};
+		int cnt=-1;
+		for(int each:arr)
+		{
+			int rev=0;
+			cnt++;
+			while(each>0)
+			{
+				int ld=each%10;
+				each=each/10;
+				rev=rev*10+ld;
+			}
+			arr[cnt]=each;
+		}
+		for(int each:arr)
+		{
+			System.out.println(each);
+		}
+	}
+}

@@ -1,0 +1,62 @@
+package sundayfunday;
+
+import java.util.Scanner;
+
+public class RereseOrder {
+
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your message: ");
+		String s=sc.nextLine();
+		System.out.println("\n");
+		s=s.replaceAll("\\s+", " ").trim();
+		String arr[]=s.split(" ");
+		
+		String a=RevOrder(arr);
+		System.out.println("Reverse in only order of string: "+a);
+		
+		String a1=RevPosition(s);
+		System.out.println("Reverse all the characet: "+a1);
+		
+		String a2=RevWO_position(arr);
+		System.out.println("Reverse Without changing posion: "+a2);
+		sc.close();
+		
+	}
+	public static String RevOrder(String[] st)
+	{
+		String a="";
+		for(String each:st)
+		{
+			a=each+" "+a;
+		}
+		return (a);
+	}
+	
+	public static String RevPosition(String st)
+	{
+		String a="";
+		for(int i=0; i<st.length();i++)
+		{
+			char ch=st.charAt(i);
+			a=ch+a;
+		}
+		return (a);
+	}
+	public static String RevWO_position(String[] st)
+	{
+		String a="";
+		for(String each:st)
+		{
+			String str="";
+			for(int j=0; j<each.length();j++)
+			{
+				char ch=each.charAt(j);
+				str=str+ch;
+			}
+			a=str+a;
+		}
+		return (a);
+	}
+}

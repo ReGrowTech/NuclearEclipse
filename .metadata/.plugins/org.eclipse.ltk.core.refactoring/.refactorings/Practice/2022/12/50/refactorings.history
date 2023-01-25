@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basic.Numbers_play&apos; to &apos;Result&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;basic.Numbers_play&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.Result&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Numbers_play&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;basic{Numbers_play.java[Numbers_play" matchStrategy="1" name="Result" qualified="false" references="true" similarDeclarations="false" stamp="1670346705506" textual="false" version="1.0"/>
+</session>

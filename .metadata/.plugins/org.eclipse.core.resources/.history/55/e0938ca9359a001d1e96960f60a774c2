@@ -1,0 +1,28 @@
+package sundayfunday;
+
+import java.util.Scanner;
+
+public class RereseOrder {
+
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your message: ");
+		String s=sc.nextLine();
+		s=s.replaceAll("\\s+", " ").trim();
+		String arr[]=s.split(" ");
+		String a=RevOrder(arr);
+		System.out.println(a);
+		sc.close();
+		
+	}
+	public static String RevOrder(String[] st)
+	{
+		String a="";
+		for(String each:st)
+		{
+			a=each+" "+a;
+		}
+		return (a);
+	}
+}

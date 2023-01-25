@@ -1,0 +1,23 @@
+package sundayfunday;
+
+public class SahidBhai3 {
+
+	public static void main(String[] args) {
+
+		String st="Adil";
+		String res=rev(st);
+		System.out.println(res);
+		
+	}
+	public static String rev(String st)
+	{
+		String a="";
+		for(int i=0; i<st.length();i++)
+		{
+			char ch=st.charAt(i);
+			a=ch+a;
+		}
+		return a;
+	}
+
+}

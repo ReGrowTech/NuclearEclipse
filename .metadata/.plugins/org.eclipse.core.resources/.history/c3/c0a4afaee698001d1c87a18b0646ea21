@@ -1,0 +1,10 @@
+package sundayfunday;
+
+public class FrequencyString {
+	public static void main(String args[])
+	{
+		String s="ADIL AFFRIFDJ";
+		
+	}
+
+}

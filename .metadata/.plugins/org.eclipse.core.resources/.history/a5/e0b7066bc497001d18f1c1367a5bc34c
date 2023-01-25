@@ -1,0 +1,17 @@
+package thurs_19_jan;
+
+public class Reverse_word {
+
+	public static void main(String args[])
+	{
+		String s="Adil Afridi";
+		String s1[]=s.split(" ");
+		String s2="";
+		for(String each:s1)
+		{
+			s2=each+s2;
+		}
+		System.out.println(s2);
+	}
+
+}

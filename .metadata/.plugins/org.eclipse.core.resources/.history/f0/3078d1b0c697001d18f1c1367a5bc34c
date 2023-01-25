@@ -1,0 +1,16 @@
+package thurs_19_jan;
+
+public class Reverse_word_SamePosition {
+
+	public static void main(String[] args) {
+
+		String str="Adil Afridi";
+		String word[]=str.split(" ");
+		String rev="";
+		for(int i=0; i<word.length; i++)
+		{
+			
+		}
+	}
+
+}

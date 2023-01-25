@@ -1,0 +1,27 @@
+package tues_17_jan;
+
+public class String6 {
+
+	public static void main(String args[])
+	{
+		String arr[]= {"pop","tot","lol","Art"};
+	
+		
+		for(String a : arr)
+		{
+
+			if(a.charAt(0)==a.charAt(a.length()-1))
+			{
+			
+				System.out.println(a);
+			}
+			
+		}
+		
+		System.out.println(" \n");
+		for(String each:a)
+		{
+			System.out.println(each);
+		}
+	}
+}

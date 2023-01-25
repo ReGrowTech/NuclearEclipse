@@ -1,0 +1,34 @@
+package wed_18_jan;
+
+import java.util.Scanner;
+
+public class PallingdromString {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your Message: ");
+		String a=sc.nextLine();
+		String res=rev(a);
+		if(res.equalsIgnoreCase(a))
+		{
+			System.out.println("String is Palindrone!");
+		}
+		else
+		{
+			System.out.println("String is not an Palindrone!");
+		}
+		
+		
+	}
+	public static String rev(String a)
+	{
+		String b="";
+		for(int i=0; i<a.length();i++)
+		{
+			char ch=a.charAt(i);
+			b=ch+b;
+		}
+		return (b);
+	}
+
+}

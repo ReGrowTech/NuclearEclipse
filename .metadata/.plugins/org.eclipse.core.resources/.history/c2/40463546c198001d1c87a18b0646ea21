@@ -1,0 +1,14 @@
+package sundayfunday;
+
+public class Pro1 
+{
+	public static void main(String args[])
+	{
+		String s="Regrow Tech India";
+		String a[]=s.split(" ");
+		for(String each:a)
+		System.out.println(each);
+		
+	}
+
+}

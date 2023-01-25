@@ -1,0 +1,40 @@
+package wed_18_jan;
+
+public class SortingArray {
+
+	public static void main(String[] args) {
+		
+
+		/*
+		 * int a[]= {10,5,2,4,6,1,8}; int temp=0; for(int i=0; i<a.length; i++) {
+		 * for(int j=i+1; j<a.length; j++) { if(a[i]<a[j]) { temp=a[i]; a[i]=a[j];
+		 * a[j]=temp; } } }
+		 * System.out.println("3rd Smallest number is: "+a[a.length-3]);
+		 */
+		int a[]= {10,20,6,2,5,4};
+		int arr[]=adil(a);
+		for(int each : arr)
+		{
+			System.out.println(each);
+		}
+		System.out.println(arr[arr.length-3]);
+		
+	}
+	public static int[] adil(int a[])
+	{
+		for(int i=0; i<a.length;i++)
+		{
+			int temp=0;
+			for(int j=0; j<a.length; j++)
+			{
+				if(a[i]>a[j])
+				{
+					temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+				}
+			}
+		}
+		return (a);
+	}
+}

@@ -1,0 +1,17 @@
+package sundayfunday;
+
+public class charPrint {
+
+	public static void main(String[] args) {
+
+		String s="ADIL ADRIDI";
+		String a1[]=s.split(" ");
+		String str="";
+		for(String each:a1)
+		{
+			str=str+each;
+		}
+		System.out.println(str);
+	}
+
+}

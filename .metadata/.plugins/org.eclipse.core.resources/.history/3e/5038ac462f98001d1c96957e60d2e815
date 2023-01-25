@@ -1,0 +1,15 @@
+package sundayfunday;
+
+import java.util.Scanner;
+
+public class StringMethods {
+	
+	public static void main(Strin args[])
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Entyer your Message here: ");
+	String str=sc.nextLine();
+	
+	
+	}
+}

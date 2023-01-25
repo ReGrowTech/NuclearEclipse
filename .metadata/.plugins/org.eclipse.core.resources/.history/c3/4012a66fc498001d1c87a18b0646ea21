@@ -1,0 +1,11 @@
+package sundayfunday;
+
+public class Title {
+	public static void main(String args[])
+	{
+		String s="ADIL Afridi Regrow Tech";
+		String word[]=s.split(" ");
+		
+	}
+
+}

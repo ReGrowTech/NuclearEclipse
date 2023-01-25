@@ -1,0 +1,14 @@
+package sundayfunday;
+
+public class MI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String n="ADIL AFRIDI";
+		String res=n.substring(0);
+		System.out.println(res);
+
+	}
+
+}

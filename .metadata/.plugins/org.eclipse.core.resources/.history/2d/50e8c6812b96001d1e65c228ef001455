@@ -1,0 +1,15 @@
+package tues_17_jan;
+
+public class String3 {
+
+	public static void main(String[] args) {
+
+		String n="ADIL";
+		
+		for(int i=0; i<n.length(); i++)
+		{
+			System.out.println();
+		}
+	}
+
+}

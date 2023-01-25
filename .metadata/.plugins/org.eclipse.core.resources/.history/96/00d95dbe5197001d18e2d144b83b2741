@@ -1,0 +1,43 @@
+package wed_18_jan;
+
+import java.util.Scanner;
+
+public class VovlesInName {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Message here: ");
+		String a=sc.nextLine();
+			Object ad[]=add(a);
+			if(ad[0]=="true")
+			{
+				System.out.println(ad[1]);
+			}
+			else
+			{
+				System.out.println("Not");
+			}
+		}
+
+	public static Object[] add(String a)
+	{
+		boolean flag=false;
+		Object ob[]=new Object[2];
+		char c;
+		for(int i=0; i<a.length(); i++)
+		{
+			char ch=a.charAt(i);
+			if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+			{
+				flag=true;
+				c=ch;
+			}	
+		}
+		ob[0]=flag;
+		ob[1]=c;
+		return (ob);
+		
+	}
+
+}

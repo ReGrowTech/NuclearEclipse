@@ -1,0 +1,17 @@
+package sundayfunday;
+
+public class FrequencyString {
+	public static void main(String args[])
+	{
+		String s="ADIL AFFRIFDJ";
+		s=s.trim().replace("\\s+", "");
+		System.out.println(s);
+		for(int i=0;i<s.length();i++)
+		{
+			int cnt=1;
+			
+		}
+		
+	}
+
+}

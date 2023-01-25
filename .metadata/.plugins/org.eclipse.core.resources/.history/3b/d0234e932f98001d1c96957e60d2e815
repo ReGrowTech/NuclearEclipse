@@ -1,0 +1,17 @@
+package sundayfunday;
+
+import java.util.Scanner;
+
+public class StringMethods {
+	
+	public static void main(String args[])
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Entyer your Message here: ");
+	String str=sc.nextLine();
+	System.out.println("What character want you search: ");
+	char ch=sc.nextLine();
+	
+	
+	}
+}

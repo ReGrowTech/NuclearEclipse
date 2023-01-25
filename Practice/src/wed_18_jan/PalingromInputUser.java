@@ -1,0 +1,22 @@
+package wed_18_jan;
+
+import java.util.Scanner;
+
+public class PalingromInputUser {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your message: ");
+		String s=sc.nextLine();
+		
+		System.out.println("In Your Message all charcter has: ");
+		for(int i=0; i<s.length();i++)
+		{
+			char ch=s.charAt(i);
+			System.out.println(ch);
+		}
+		sc.close();
+	}
+
+}

@@ -1,0 +1,10 @@
+package wed_18_jan;
+
+public class CallingStaticNonstatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
